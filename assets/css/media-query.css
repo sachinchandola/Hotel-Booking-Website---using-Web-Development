@@ -1,0 +1,544 @@
+@media only screen and (min-width : 601px) and (max-width : 991px) {
+    .header_main .navbar-brand {
+        width: 40%;
+    }
+    .header_main .navbar-nav {
+        align-items: center;
+    }
+    .header_main .icon_btn {
+        width: 15%;
+        margin: 0 auto;
+    }
+
+    .header_main .navbar-nav .nav-item a {
+        width: 100%;
+        font-size: 2vw;
+        padding: 0.5vw 3vw;
+        margin: 1vw 0;
+    }
+    .header_main .icon_btn .icon {
+        width: 2vw;
+    }
+    .header_main .icon_btn {
+        font-size: 2vw;
+    }
+
+
+    .membership_container {
+        flex-direction: column;
+    }
+    .membership_container .left {
+        width: 100%;
+    }
+    .membership_container .right {
+        width: 100%;
+        /* padding: 0 2vw; */
+    }
+
+
+    .breadcrumb_cont .filter_box {
+        width: 53%;
+    }
+    .stylelist_main .cards_container .card {
+        width: 31%;
+    }
+
+
+
+    .gallery_cont .image-container {
+        width: 31.9%;
+        height: 21vw;
+        position: relative;
+        margin: 5px;
+    }
+    .details_cont .container_box .buttons_cont .icon_btn {
+        margin-left: 0;
+    }
+    .details_cont .container_box .buttons_cont .icon_btn:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .chat-icon .chat p {
+        font-size: 2vw;
+        top: -6.5vw;
+        width: 32vw;
+    }
+    
+    /*Auth Page Start*/
+    .main_auth_cont .form-container {
+        width: 50%;
+        padding: 1rem;
+    }
+    /*Auth Page End*/
+
+
+
+}
+@media only screen and (max-width : 600px) {
+    /* Home Page -- Header -- Footer Start */
+    .header_main .navbar-brand {
+        width: 40%;
+    }
+    .header_main .navbar-brand img {
+        width: 100%;
+    }
+    
+    .header_main .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header_main .navbar-nav {
+        align-items: center;
+        width: 100%;
+    }
+    .header_main .icon_btn {
+        display: inline-block;
+        width: auto;
+        margin: 0 auto;
+        font-size: 4vw;
+        padding: 1.5vw 3vw;
+    }
+    .header_main .btn.profile_btn {
+        margin-left: 25%;
+    }
+
+    .header_main .navbar-nav .nav-item a {
+        font-size: 4vw;
+        padding: 1.5vw 3vw;
+        margin: 2vw 0;
+    }
+    .header_main .icon_btn .icon {
+        width: 4vw;
+    }
+
+    .header_main .navbar .container-fluid {
+        padding: 0 3vw;
+    }
+
+
+    .homepage_main .hero .carousel-item {
+        height: 90vw;
+    }
+
+    .homepage_main .hero .stay_btns_box {
+        width: 50%;
+    }
+    .homepage_main .hero .stay_btns_box ul .btn_item {
+        width: 70%;
+        margin: 3.5vw 0;
+    }
+    .homepage_main .hero .stay_btns_box ul .btn_item .btn_link {
+        font-size: 4.2vw;
+    }
+
+
+    .about {
+        padding: 5vw;
+    }
+    .about h2 {
+        font-size: 1.5rem;
+    }
+    .about p {
+        font-size: 4vw;
+    }
+
+
+    section.heading {
+        margin-top: 10vw;
+    }
+    section.heading .title {
+        font-size: 6vw;
+    }
+    section.heading .sub_title {
+        font-size: 4vw;
+    }
+
+
+    .top_rated {
+        width: 100%;
+        flex-direction: column;
+    }
+    .top_rated .left {
+        width: 100%;
+    }
+    .top_rated .right {
+        width: 100%;
+    }
+    .top_rated .right .card_container  {
+        width: 100%;
+        margin-top: 5vw;
+    }
+    .top_rated .img_card .detail_box {
+        bottom: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        width: 100%;
+    }
+
+    .top_rated .img_card .detail_box .name {
+        font-size: 4vw;
+    }
+    .top_rated .img_card .detail_box .location {
+        font-size: 3vw;
+    }
+
+
+    .membership_container {
+        flex-direction: column;
+    }
+    .membership_container .left {
+        width: 100%;
+    }
+    .membership_container .right {
+        width: 100%;
+        padding: 0 2vw;
+    }
+    .membership_container .right p {
+        font-size: 4vw;
+    }
+
+
+
+    .services_container .service_card {
+        width: 100%;
+        padding: 3.5vw;
+        margin: 2vw 0;
+    }
+    .services_container .service_card .icon {
+        width: 15vw;
+        height: 15vw;
+        padding: 3vw;
+    }
+    .services_container .service_card .text {
+        width: 75%;
+    }
+    .services_container .service_card .text h4 {
+        font-size: 5vw;
+    }
+    .services_container .service_card .text p {
+        font-size: 3.5vw;
+    }
+
+
+
+    .card_slider {
+        padding: 0 5vw;
+    }
+    .card_slider .swiper.mySwiper .swiper-button-next:after, 
+    .card_slider .swiper.mySwiper .swiper-button-prev:after {
+        font-size: 1.5rem;
+    }
+
+    .card_slider .swiper-slide .card .card_img {
+        height: 60vw;
+    }
+
+
+    .card_slider .mySwiperTesti .swiper-slide .card {
+        padding: 3vw;
+    }
+    .card_slider .mySwiperTesti .swiper-slide .card .testi_message {
+        height: 50vw;
+        overflow-y: auto;
+        font-size: 3.5vw;
+    }
+    .card_slider .mySwiperTesti .swiper-slide .card h4 {
+        font-size: 5vw;
+        padding-top: 2vw;
+    }
+    .card_slider .swiper.mySwiperTesti .swiper-button-next:after, .card_slider .swiper.mySwiperTesti .swiper-button-prev:after {
+        font-size: 1rem;
+    }
+
+    .card_slider .swiper-slide .card .card-body {
+        padding: 2.5vw;
+    }
+    .card_slider .swiper-slide .card .card-body h5 {
+        font-size: 4vw;
+    }
+    .card_slider .swiper-slide .card .card-body p {
+        font-size: 3.5vw;
+    }
+    .card_slider .swiper-slide .card .card-body .btn {
+        font-size: 3.8vw;
+    }
+
+
+
+    footer .content_box {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8vw;
+    }
+    footer .content_box .logo_box {
+        width: 75%;
+    }
+    footer .content_box .logo_box .social_box {
+        padding: 3vw 0 3vw;
+    }
+    footer .content_box .logo_box .social_box li {
+        width: 10%;
+        margin: 0 2vw;
+    }
+    footer .content_box .link_box {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vw;
+    }
+    footer .content_box .link_box h4 {
+        font-size: 4vw;
+    }
+    footer .content_box .link_box ul li {
+        display: flex;
+        justify-content: center;
+        margin: 2vw 0;
+    }
+    footer .content_box .link_box ul li a {
+        font-size: 3.5vw;
+    }
+
+    /* footer .content_box .link_box:last-child ul li:first-child {
+        margin-bottom: -6vw;
+    } */
+    footer .content_box .link_box:last-child ul li a {
+        text-align: center;
+    }
+
+    footer .sub_footer {
+        padding: 3vw 0;
+        font-size: 2.5vw;
+    }
+
+    /* Home Page -- Header -- Footer End */
+
+
+    /* About Page Start */
+    .aboutus_cont .hero_banner {
+        height: 70vw;
+        padding-left: 0;
+    }
+    .aboutus_cont .hero_banner h1 {
+        font-size: 8vw;
+    }
+    .aboutus_cont .img_txt_cont {
+        flex-direction: column;
+        padding: 0 5vw;
+    }
+    .aboutus_cont .img_txt_cont .left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .aboutus_cont .img_txt_cont .right {
+        width: 100%;
+        margin: 4vw 0;
+    }
+    .aboutus_cont .img_txt_cont .right h3 {
+        font-size: 5vw;
+        margin: 0 auto;
+    }
+    .aboutus_cont .img_txt_cont .right p {
+        font-size: 4vw;
+    }
+
+    .aboutus_cont .img_txt_cont.reversed .left {
+        order: 0;
+        justify-content: center;
+    }
+    /* About Page End */
+
+
+    /* Hotel Page Start */
+    .stylelist_main .hero_banner {
+        height: 40vw;
+    }    
+    .stylelist_main .hero_banner h1 {
+        font-size: 10vw;
+        margin-left: 0;
+    }
+
+    .breadcrumb_cont {
+        margin: 5vw 3vw 0;
+        display: flex;
+        justify-content: flex-start;
+        padding: 2.5vw;
+        border-radius: 1.25vw;
+        flex-direction: column;
+        font-size: 4vw;
+    }
+    .breadcrumb_cont .filter_box {
+        width: 100%;
+        margin-top: 3vw;
+    }
+    .breadcrumb_cont .filter_box select {
+        font-size: 4vw;
+    }
+    .breadcrumb_cont .filter_box .icon_btn {
+        font-size: 2.9vw;
+    }
+    .breadcrumb_cont .filter_box .icon_btn .icon {
+        width: 3vw;
+    }
+
+    .stylelist_main .cards_container {
+        padding: 2vw;
+    }
+    .stylelist_main .cards_container .card {
+        width: 98%;
+    }
+    .stylelist_main .cards_container .card img {
+        height: 60vw;
+    }
+    /* Hotel Page End */
+
+
+
+    /* Hotel-list Page Start */
+    .details_cont .hero_banner {
+        height: 40vw;
+    }
+    .details_cont .hero_banner h1 {
+        font-size: 6vw;
+        width: 90%;
+    }
+    .details_cont .hero_banner p {
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    .details_cont .hero_banner p img {
+        width: 1.1rem;
+        margin-right: 0.3rem;
+    }
+
+    .stylelist_main .cards_container .card .card-body {
+        padding: 2vw;
+    }
+    .stylelist_main .cards_container .card .card-body h5 {
+        font-size: 4vw;
+    }
+
+
+    .details_cont .container_box {
+        padding: 5vw 3vw;
+    }
+    .details_cont .container_box .title {
+        font-size: 5vw;
+    }
+    .stylelist_main .cards_container .card .card-body p {
+        font-size: 3vw;
+    }
+    .stylelist_main .cards_container .card .card-body .btn {
+        font-size: 2.85vw;
+    }
+
+    .stylelist_main .page-item .page-link {
+        font-size: 3vw;
+        padding: 0 1.5vw;
+    }
+
+
+
+    .gallery_cont .image-container {
+        width: 30.3%;
+        height: 21vw;
+        position: relative;
+        margin: 5px;
+    }
+
+    .gallery_cont .modal-content {
+        max-width: 95%;
+    }
+    .gallery_cont .prev {
+        left: -5px;
+    }
+    .gallery_cont .next {
+        right: -5px;
+    }
+
+    .details_cont .container_box .buttons_cont {
+        width: 60%;
+    }
+    .details_cont .container_box .buttons_cont .icon_btn {
+        margin-left: 0;
+    }
+    
+    .details_cont .container_box .buttons_cont .icon_btn:nth-child(2) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .discount_popup1 {
+        width: 30vw;
+        height: 30vw;
+        top: 0;
+        right: 5%;
+        z-index: -1;
+    }
+    .discount_popup1 span {
+        font-size: 4vw;
+        top: -4vw;
+        left: 3vw;
+    }
+    .discount_popup1 .discount4 {
+        right: 2vw;
+        font-size: 3.5vw;
+        top: 4vw;
+    }
+    .chat-icon .chat p {
+        font-size: 3vw;
+        top: -7vw;
+        width: 32vw;
+    }
+    /* Hotel-list Page End */
+
+
+    /* Contact Page Start */
+    .contactus_cont .img_txt_cont .left form h3 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .contactus_cont .img_txt_cont .right {
+        margin: 10vw 0;
+    }
+    .contactus_cont .img_txt_cont .right .box.social_box {
+        margin-top: 5vw;
+    }
+    .contactus_cont .img_txt_cont .right .box.social_box .icon {
+        width: 10%;
+        margin: 0 1.5vw;
+    }
+
+    .contactus_cont .img_txt_cont .left form {
+        width: 100%;
+    }
+    .contactus_cont .img_txt_cont .left form label,
+    .contactus_cont .img_txt_cont .left form input,
+    .contactus_cont .img_txt_cont .left form textarea {
+        font-size: 4vw;
+        padding: 0.5vw;
+    }
+    .contactus_cont .img_txt_cont .left form input {
+        padding: 3.5vw;
+    }
+    .contactus_cont .img_txt_cont .left form .icon_btn {
+        font-size: 4vw;
+        padding: 1.25vw 4vw;
+    }
+    /* Contact Page End */
+    
+    /*Auth Page Start*/
+    .main_auth_cont .form-container {
+        width: 95%;
+        padding: 1rem;
+    }
+    /*Auth Page End*/
+}
+
+
+
+
